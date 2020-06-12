@@ -19,11 +19,8 @@ public:
     {
         int n=prices.size();
         for(int i=0;i<50001;i++)
-         dp[i][0]=-1,dp[i][1]=-1;
-        int dp[prices.size()+1][2];
-        for(int i=0;i<prices.size();i++)
         {
-            
+            dp[i][0]=-1,dp[i][1]=-1;
         }
         return maxselling(prices,0,0,fee);
     }
